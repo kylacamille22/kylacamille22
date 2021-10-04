@@ -1,0 +1,31 @@
+body{
+    background-color:rgba(107, 93, 55, 0.514)
+}
+
+h1 {
+    color: white;
+
+}
+
+.pages {
+    font-size: 50px;
+}
+
+.welcome {
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 20px 10px 20px;
+
+}
+
+.links{
+width: 400px;
+border: 20px double rgb(255, 255, 255);
+padding: 50px;
+margin: 60px;
+}
+
+li{
+    font-size: 30px;
+
+}
