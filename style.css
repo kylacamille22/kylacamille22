@@ -1,31 +1,41 @@
 body{
-    background-color:rgba(107, 93, 55, 0.514)
-}
-
-h1 {
+    font-family: 'Raleway', sans-serif;
     color: white;
-
+    font-size: 20px;
+    background-color:rgb(44, 27, 3);
 }
 
-.pages {
-    font-size: 50px;
-}
 
-.welcome {
-    font-size: 200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#welcome {
     margin: 10px 20px 10px 20px;
+    font-size: 200px;
+    color:rgba(247, 231, 201, 0.801);
+}
 
+li {
+    Text-align: left;
+}
+
+h2 {
+    color: rgba(247, 231, 201, 0.801);
 }
 
 .links{
-width: 400px;
-border: 20px double rgb(255, 255, 255);
+width: 400px; 
+height: 150px;
+border: 10px double rgba(255, 255, 255, 0.938);
 padding: 50px;
-margin: 60px;
+margin: 10px 20px 10px 20px;
 }
 
-li{
-    font-size: 30px;
+.best {
+    width: 700px;
+    border: 10px double rgba(255, 255, 255, 0.938);
+    padding: 50px;
+    margin: 10px 20px 10px 20px;  
+}
+
+.best-pic {
+    border: solid 1px white;
 
 }
