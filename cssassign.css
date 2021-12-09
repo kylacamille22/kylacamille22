@@ -1,0 +1,124 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(44, 27, 3);
+}
+
+
+#welcome {
+    margin: 10px 20px 10px 20px;
+    font-size: 200px;
+    color:rgba(247, 231, 201, 0.801);
+}
+
+li {
+    Text-align: left;
+}
+
+h2 {
+    color: rgba(247, 231, 201, 0.801);
+    padding: 20px 10px 20px;
+}
+
+#links {
+width: 300px; 
+height: 200px;
+border: 10px double rgb(255, 255, 255);
+padding: 50px;
+margin: 10px 20px 10px 20px;
+background-color:rgba(247, 231, 201, 0.801);
+}
+
+#links span {
+  background-color: rgb(44, 27, 3);
+  border: solid 2px;
+  padding: 5px 10px 5px 10px;
+
+}
+
+.button {
+    color: white;
+}
+
+.best {
+    width: 700px;
+    border: 10px double rgba(255, 255, 255, 0.938);
+    padding: 50px;
+    margin: 10px 20px 10px 20px;  
+}
+
+.best summary {
+  color: rgb(44, 27, 3);
+}
+
+.dog-or-cat {
+    width: 500px;
+    border: 10px double rgba(255, 255, 255, 0.938);
+    padding: 50px;
+    margin: 20px 15px 20px 15px;  
+}
+
+.best-pic {
+    border: solid 2px white;
+
+}
+
+details {
+    background-color: rgba(247, 231, 201, 0.801);
+    padding: 20px 15px 20px 15px;
+    margin: 10px 15px 10px 15px;
+}
+.dog-or-cat summary {
+  color: rgb(44, 27, 3);
+}
+
+footer {
+    text-align: center;
+}
+
+.best-pic h3 {
+background-color: white;
+}
+
+.dog-or-cat h3 {
+  color:rgb(44, 27, 3)
+}
+
+
+h4 {
+ height: 40px;
+width: 70%;
+background: rgba(247, 231, 201, 0.801);
+ margin: 50px auto;
+ border-radius: 5px;
+ }
+
+  #rect {
+animation-name: rainbow;
+animation-duration: 4s;
+text-align: center;
+
+  }
+
+@keyframes rainbow {
+  0% {
+    background-color: rgba(247, 231, 201, 0.801);
+  }
+
+  25% {
+    background-color: rgb(44, 27, 3);
+  }
+
+  50% {
+    background-color: rgb(44, 27, 3);
+  }
+
+  75% {
+    background-color: rgba(247, 231, 201, 0.801);
+  }
+
+  100% {
+    background-color: rgba(116, 80, 15, 0.801);
+  }
+}
